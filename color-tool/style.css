@@ -1,0 +1,121 @@
+* {
+    margin: 30;
+    padding: 0;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 30px;
+    font-weight: 200;
+    background-color: #000624;
+    color: #A0D2DB;
+}
+
+.container {
+    padding: 0 10px;
+}
+
+.title {
+    text-align: center;
+    text-decoration: solid;
+    margin: 20px;
+    color: #A0D2DB;
+    text-decoration: underline;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+
+}
+
+input {
+    margin-bottom: 25px;
+    border-radius: 30px;
+    height: 30;
+}
+
+input[type="text"]{
+    padding: 15px 10px;
+    border-radius: 30px;
+    border:rgb(97, 97, 255);
+    text-decoration: underline;
+
+}
+
+.box {
+    height:100px;
+    width: 100%;
+    background-color: #c6d5ac;
+    margin-bottom: 35px;
+    border-radius: 30px;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.toggle-text {
+
+  font-size: 18px;
+
+
+}
+
+.toggle-btn {
+ height: 30px;
+ width: 60px;
+ background-color: gray;
+ border-radius: 30px;
+ padding: 6 px;
+ margin: 0px 10px;;
+}
+
+.inner-circle {
+
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:white;
+    transition: all 0.5s ease;
+    
+}
+
+.toggle-btn.toggled > .inner-circle {
+
+    transform: translateX(30px);
+    background: color #333;
+}
+
+.unselected {
+    opacity:0.25;
+}
+
+.copy {
+    height: 30px;
+    width: 80px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    transition: all 0.5s ease;
+    border-color:#000624;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 30px;
+    font-weight: 200;
+    margin-left:  1300px;
+    position: relative;
+    left:6px;
+    bottom: 42px;
+}
+
+
+.copy:active {
+     box-shadow:  7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+}
